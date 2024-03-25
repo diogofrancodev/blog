@@ -20,3 +20,7 @@ Route::middleware([
         return view('dashboard');
     })->name('dashboard');
 });
+
+Route::get('/register', function () {
+    // ...
+})->middleware(['auth:sanctum']);

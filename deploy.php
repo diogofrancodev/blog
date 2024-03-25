@@ -11,7 +11,7 @@ set('http_user', 'www-data');
 set('ssh_multiplexing', true);
 set('git_tty', false);
 set('default_timeout', 0);
-set('php8.1-fpm', '8.2');
+set('php8.2-fpm', '8.2');
 
 host('production')
     ->set('remote_user', 'root')
